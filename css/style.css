@@ -1,0 +1,321 @@
+/* ヘッダー */
+.header {
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px 10px 20px;
+}
+.logo {
+  height: 30px;
+}
+.header-nav {
+  /* margin: 5px 20px 20px 0; */
+}
+.nav-list {
+  display: flex;
+  font-size: 14px;
+  color: rgb(109, 109, 109);
+}
+.nav-list li {
+  padding: 5px
+}
+
+/* tittle */
+.ttl {
+  position: relative;
+}
+.ttl-img {
+  height: 500px;
+  width: 60%;
+  margin-left: 40%;
+}
+.concept {
+  position: absolute;
+  top: 80px;
+  left: 270px;
+}
+.ttl h1 {
+  font-family: 'Indie Flower', cursive;
+  font-size: 55px;
+  color: rgb(175, 25, 100);
+  line-height: 80px;
+  padding-bottom: 30px;
+}
+.ttl span {
+  color: rgb(12, 145, 150);
+}
+.ttl h2 {
+  font-size: 20px;
+  color: rgb(175, 25, 100);
+  padding-bottom: 10px;
+  margin-top: 15px;
+}
+.ttl p {
+  line-height: 20px;
+  color: darkgrey;
+  font-size: 13px;
+}
+/* News */
+.news {
+  width: 550px;
+  margin: auto;
+}
+.news p {
+  font-family: 'Indie Flower', cursive;
+  color: rgb(175, 25, 100);
+}
+.news h2 {
+  color: rgb(109, 109, 109);
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+table {
+  color: darkgrey;
+  line-height: 200%;
+  border: rgb(199, 203, 209) solid;
+  border-width: 2px 0 2px 0;
+}
+table tr {
+  font-size: 14px;
+  line-height: 100%;
+  border-bottom: rgb(199, 203, 209)  solid;
+  border-width: 1px;
+  /* border-spacing: 20px 0; */
+  
+}
+table th {
+  padding: 20px 0 20px 0;
+
+}
+.news th:nth-child(2) {
+  color: white;
+  border-radius: 20px;
+  
+  background-color: rgb(180, 33, 107);
+}
+
+/* About */
+.about {
+  margin: 20px 100px;
+}
+.about-top {
+  text-align: center;
+}
+.about h2 {
+  font-size: 20px;
+  margin: 20px 0;
+}
+.about-content {
+  display: flex;
+}
+.about-img {
+  width: 300px;
+  height: 200px;
+}
+
+
+/* Service */
+.service {
+  height: 400px;
+  margin: 50px 100px;
+}
+.service-top {
+
+}
+.service h2 {
+  font-size: 20px;
+  margin: 20px 0;
+}
+.service-grid {
+  display: grid;
+  grid-template-rows: 150px 150px;
+  grid-template-columns: 1fr 1fr;
+}
+.service-grid img {
+  width: 130px;
+  height: 130px;
+}
+.box1 {
+  grid-column: 1/2;
+  grid-row: 1/3;
+  text-align: center;
+  
+}
+.box2 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  display: flex;
+  
+}
+.box3 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  display: flex;
+}
+h3 {
+  margin: 10px 0;
+}
+/* Blog */
+.blog-main {
+  margin: 0 auto;
+  width: 70%;
+}
+.blog-top {
+  margin: 10px 0;
+}
+.blog span {
+  line-height: 40px;
+}
+.blog h2 {
+  font-size: 20px;
+}
+.wrapper {
+  display: flex;
+    justify-content: space-between;
+    /* width: 80%; */
+    margin: 0 auto;
+    
+}
+
+.blog-img img {
+  width: 230px;
+  height: 170px;
+}
+.card {
+  width: 230px;
+  margin: 20px 20px 20px 0;
+  cursor: pointer;
+  position: relative;
+  
+}
+.card-name {
+  position: absolute;
+  
+}
+.text-box {
+  padding: 15px;
+}
+.text-box p {
+  font-size: 12px;
+
+}
+.card-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.blog button {
+  display: block;
+  text-align: center;
+  padding: 10px 40px;
+  border: solid 2px rgb(136, 0, 68);
+  border-radius: 20px;
+  margin: auto;
+  background-color: white;
+  
+}
+.blog a {
+  text-decoration: none;
+  font-size: 12px;
+}
+
+/* Company */
+.company {
+  
+}
+.company-content {
+  margin: 50px auto;
+  width: 700px;
+}
+.company-content span {
+  line-height: 30px;
+  font-size: 10px;
+}
+.company-content h2 {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.company-table {
+  text-align: left;
+  width: 100%;
+}
+.company-table th,
+.company-table td {
+  border: 1px solid rgba(182, 182, 182, 0.959);
+  color: rgba(97, 95, 95, 0.973);
+  padding-left: 10px;
+}
+.company-table th {
+  background-color: rgb(207, 201, 201);
+}
+
+/* Article */
+.article {
+  display: flex;
+  
+}
+.info {
+  position: relative;
+}
+.article span {
+  color: azure;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+}
+.interview {
+  position: relative;
+}
+
+.img-recruit {
+  display: inline-block;
+  width: 100%;
+  height: 90%;
+}
+.img-interview {
+  display: inline-block;
+  width: 100%;
+  height: 90%;
+}
+
+/* Contact */
+.contact-main {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  
+}
+.contact h3 {
+  margin: 15px 0;
+}
+.contact button {
+  display: block;
+  text-align: center;
+  padding: 10px 40px;
+  border: solid 2px rgb(136, 0, 68);
+  border-radius: 20px;
+  margin: auto;
+  background-color: rgb(255, 19, 243);
+  
+}
+.contact a {
+  color: white;
+  text-decoration: none;
+}
+.contact img {
+  width: 30px;
+  height: 30px;
+}
+/* footer */
+footer {
+  width: 100%;
+  background-color: rgb(240, 237, 232);
+  padding: 20px 0;
+  text-align: center;
+}
+.copyright {
+  font-size: 10px;
+  color: rgb(121, 113, 113);
+}
