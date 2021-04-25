@@ -362,6 +362,8 @@ table tr:nth-child(5) {
 }
 .info {
   position: relative;
+  
+  width: 50%;
 }
 .article span {
   color: azure;
@@ -373,6 +375,8 @@ table tr:nth-child(5) {
 }
 .interview {
   position: relative;
+
+  width: 50%;
 }
 
 .img-recruit {
