@@ -39,53 +39,59 @@
       </div>
     </div>
 <!-- ニュース -->
+  <div class="news-all">
     <div class="news">
       <p>News</p>
       <h2>新着情報</h2>
-      <table>
-        <tr>
-          <th>2021/01/01</th>
-          <th>ニュース</th>
-          <th>COACHTECHのサービスが開始されました。</th>
-        </tr>
-        <tr>
-          <th>2021/01/01</th>
-          <th>ニュース</th>
-          <th>COACHTECHのサービスが開始されました。</th>
-        </tr>
-        <tr>
-          <th>2021/01/01</th>
-          <th>ニュース</th>
-          <th>COACHTECHのサービスが開始されました。</th>
-        </tr>
-        <tr>
-          <th>2021/01/01</th>
-          <th>ニュース</th>
-          <th>COACHTECHのサービスが開始されました。</th>
-        </tr>
-        <tr>
-          <th>2021/01/01</th>
-          <th>ニュース</th>
-          <th>COACHTECHのサービスが開始されました。</th>
-        </tr>
-      </table>
+      <div class="news-main">
+        <table>
+          <tr>
+            <th>2021/01/01</th>
+            <th>ニュース</th>
+            <th>COACHTECHのサービスが開始されました。</th>
+          </tr>
+          <tr>
+            <th>2021/01/01</th>
+            <th>ニュース</th>
+            <th>COACHTECHのサービスが開始されました。</th>
+          </tr>
+          <tr>
+            <th>2021/01/01</th>
+            <th>ニュース</th>
+            <th>COACHTECHのサービスが開始されました。</th>
+          </tr>
+          <tr>
+            <th>2021/01/01</th>
+            <th>ニュース</th>
+            <th>COACHTECHのサービスが開始されました。</th>
+          </tr>
+          <tr>
+            <th>2021/01/01</th>
+            <th>ニュース</th>
+            <th>COACHTECHのサービスが開始されました。</th>
+          </tr>
+        </table>
+      </div>
     </div>
+  </div>
 <!-- about -->
+  <div class="about-all">
     <div class="about">
       <div class="about-top">
-        <span>About</span>
-        <h2>Technology ✖️ Coaching</h2>
+        <p class="about-ttl">About</p>
+        <h2>Technology × Coaching</h2>
       </div>
       <div class="about-content">
-        <p>株式会社estraはデジタル化が遅れている教育業界に最新のテクノロジーを導入することによって教育のDXを実現します。<br>
+        <p class="about-main">株式会社estraはデジタル化が遅れている教育業界に最新のテクノロジーを導入することによって教育のDXを実現します。<br><br>
           独自のオペレーションとコーチングを融合した新しい教育の仕組みにより、一人ひとりに合わせた最適な教育を提供します。</p>
           <img src="img/about.jpg" class="about-img" alt="">
       </div>
     </div>
+  </div>
 <!-- サービス -->
     <div class="service">
       <div class="service-top">
-        <span>Service</span>
+        <p class="service-ttl">Service</p>
         <h2>サービス内容</h2>
       </div>
       <div class="service-grid">
@@ -96,14 +102,14 @@
         </div>
         <div class="box2">
           <img src="img/service__second.svg" alt="2">
-          <div>
+          <div class="box2-text">
           <h3>教育事業</h3>
           <p>サンプルテキストがここには入ります。サンプルテキストがここには入ります。サンプルテキストがここには入ります。</p>
           </div>
         </div>
         <div class="box3">
           <img src="img/service__third.svg" alt="3">
-          <div>
+          <div class="box3-text">
             <h3>教育事業</h3>
             <p>サンプルテキストがここには入ります。サンプルテキストがここには入ります。サンプルテキストがここには入ります。</p>
           </div>
@@ -116,15 +122,14 @@
     <div class="blog">
       <div class="blog-main">
         <div class="blog-top">
-          <span>Blog</span>
+          <p>Blog</p>
           <h2>ブログ</h2>
         </div>
         <div class="wrapper">
-          <div class="card-name">Blog</div>
           <div class="card">
+            <div class="card-name">Blog</div>
             <div class="blog-img">
               <img src="img/blog__first.jpg" alt="">
-              
             </div>
             <div class="text-box">
               <h3>プログラミング学習学習の勉強方法を特集。挫折しない秘訣とは？</h3>
@@ -134,7 +139,6 @@
               </div>
             </div>
           </div>
-          <div class="card-name">Blog</div>
           <div class="card">
             <div class="blog-img">
               <img src="img/blog__first.jpg" alt="">
@@ -148,7 +152,6 @@
               </div>
             </div>
           </div>
-          <div class="card-name">Blog</div>
           <div class="card">
             <div class="blog-img">
               <img src="img/blog__first.jpg" alt="">
@@ -169,7 +172,7 @@
     <!-- 会社概要 -->
     <div class="company">
       <div class="company-content">
-        <span>Company</span>
+        <p class="company-ttl">Company</p>
         <h2>会社概要</h2>
         <div class="deta">
           <table class="company-table">
@@ -217,10 +220,10 @@
       <div class="contact-main">
         <h3>株式会社estraへのお問い合わせはこちらから</h3>
       </div>
-      <button><a href="">お問い合わせ</a></button>
-      <div>
-        <img src="img/mailicon.svg" alt="">
-      </div>
+      <button><a href="">お問い合わせ</a>
+      <div class="">
+        <img  class="mail" src="img/mailicon.svg" alt="">
+      </div></button>
     </div>
     
   </main>
