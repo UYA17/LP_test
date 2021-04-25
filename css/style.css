@@ -265,17 +265,20 @@ table tr:nth-child(5) {
   background-size: contain;
   height: 170px;
   width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 .card {
   width: 230px;
   margin: 20px 20px 20px 0;
-  border-radius: 10px;
+  border-radius: 20px;
   background-color: white;
   cursor: pointer;
   position: relative;
   
 }
 .card-name {
+  border-top-left-radius: 20px;
   position: absolute;
   top: 0;
   color: azure;
@@ -288,6 +291,9 @@ table tr:nth-child(5) {
   color: rgb(94, 88, 88);
 }
 .text-box h3 {
+  font-size: 13px;
+  line-height: 20px;
+  margin-bottom: 30px;
 }
 .text-box p {
   font-size: 12px;
@@ -296,6 +302,7 @@ table tr:nth-child(5) {
 .card-bottom {
   display: flex;
   justify-content: space-between;
+  
 }
 .blog button {
   display: block;
@@ -408,8 +415,8 @@ table tr:nth-child(5) {
   border: none;
   border-radius: 30px;
   box-shadow: 0 8px 0 rgb(156, 11, 149) ;
-  margin: 30px auto;
-  background: linear-gradient(-90deg, rgb(167, 26, 160),rgb(255, 19, 243));
+  margin: 30px auto 70px auto;
+  background: linear-gradient(90deg, rgb(236, 37, 137),rgb(175, 25, 100));
   position: relative;
   font-size: 15px;
   
